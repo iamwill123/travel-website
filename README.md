@@ -5,21 +5,25 @@ A modern React-based travel website where users can share and discover travel re
 ## ✨ Features
 
 ### 🗺️ Travel Recommendations
+
 - **Share Travel Tips**: Users can submit detailed recommendations for restaurants, attractions, hotels, activities, and more
 - **Rich Content**: Each recommendation includes descriptions, insider tips, ratings, and tags
 - **Visual Appeal**: Beautiful image galleries and category-based organization
 
 ### 🔍 Discovery & Search
+
 - **Smart Search**: Find recommendations by destination, title, or description
 - **Category Filtering**: Filter by restaurants, attractions, hotels, activities, transport, and more
 - **Tag System**: Discover content through relevant tags and keywords
 
 ### 🎨 Modern UI/UX
+
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Clean Interface**: Modern, intuitive design with smooth animations
 - **Accessibility**: Built with accessibility best practices in mind
 
 ### 📱 Interactive Features
+
 - **Real-time Search**: Instant filtering as you type
 - **Form Validation**: Comprehensive validation for user submissions
 - **Dynamic Content**: Live updates when adding new recommendations
@@ -35,23 +39,27 @@ A modern React-based travel website where users can share and discover travel re
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/iamwill123/travel-website.git
    cd travel-website
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -91,28 +99,33 @@ travel-website/
 ## 🎯 Core Components
 
 ### Header Component
+
 - Navigation menu with logo and branding
 - "Share Tip" button to add new recommendations
 - Responsive design with mobile-friendly navigation
 
 ### Hero Section
+
 - Compelling call-to-action for travelers
 - Feature highlights showcasing the platform's value
 - Gradient background with engaging visuals
 
 ### Recommendations List
+
 - Search functionality with real-time filtering
 - Category-based filtering system
 - Grid layout for recommendation cards
 - Empty state handling
 
 ### Recommendation Card
+
 - Rich display of travel information
 - Star ratings and user feedback
 - Category badges and tags
 - Author information and timestamps
 
 ### Add Recommendation Form
+
 - Comprehensive form with validation
 - Support for images, descriptions, and tips
 - Category selection and rating system
@@ -121,17 +134,20 @@ travel-website/
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary Blue**: #3b82f6 (Modern, trustworthy)
 - **Secondary Green**: #22c55e (Success, nature)
 - **Neutral Grays**: Various shades for text and backgrounds
 - **Category Colors**: Distinct colors for different recommendation types
 
 ### Typography
+
 - **Font Family**: Inter (Modern, readable)
 - **Hierarchy**: Clear heading and body text styles
 - **Responsive**: Scales appropriately across devices
 
 ### Layout
+
 - **Container**: Max-width 1200px with responsive padding
 - **Grid System**: CSS Grid for flexible layouts
 - **Spacing**: Consistent spacing using rem units
@@ -139,6 +155,7 @@ travel-website/
 ## 📱 Responsive Design
 
 The application is fully responsive and optimized for:
+
 - **Desktop**: Full-featured experience with side-by-side layouts
 - **Tablet**: Adapted layouts with touch-friendly interactions
 - **Mobile**: Stacked layouts with mobile-optimized navigation
@@ -146,16 +163,19 @@ The application is fully responsive and optimized for:
 ## 🔧 Customization
 
 ### Adding New Categories
+
 1. Update the `categories` array in `RecommendationsList.tsx`
 2. Add corresponding CSS classes in `index.css`
 3. Update the TypeScript types in `types/index.ts`
 
 ### Styling Modifications
+
 - All styles are in `src/index.css`
 - Component-specific styles are organized with clear comments
 - CSS custom properties can be added for easy theming
 
 ### Adding New Features
+
 - Follow the existing component structure
 - Use TypeScript for type safety
 - Maintain responsive design principles
@@ -164,6 +184,7 @@ The application is fully responsive and optimized for:
 ## 🚀 Future Enhancements
 
 Potential features for future development:
+
 - **User Authentication**: User accounts and profiles
 - **Comments & Reviews**: Social interaction features
 - **Maps Integration**: Location-based recommendations
